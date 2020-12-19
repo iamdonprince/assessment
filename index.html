@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">Logo</a>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active mr-4">
+            <a class="nav-link text-dark" href="#">Join a Race </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-dark" href="#">Leaderboard</a>
+          </li>
+        </ul>
+
+        <button class="btn bg-white my-2 my-sm-0 px-4" type="submit">
+          Login
+        </button>
+      </div>
+    </nav>
+    <div class="form">
+      <h1>Password Reset</h1>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">NEW PASSWORD</label>
+          <input
+            pattern="(?=.*[a-z]).{8,}"
+            title="Must contain characters only from the alphabet password length should be 8."
+            required
+            type="password"
+            class="form-control border border-dark"
+            id="exampleInputPassword1"
+            aria-describedby="exampleInputPassword1"
+          />
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">RE-ENTER NEW PASSWORD</label>
+          <input
+            type="password"
+            required
+            class="form-control border border-dark"
+            id="exampleInputPassword2"
+          />
+          <p class="message">Password do not match</p>
+        </div>
+
+        <button type="submit" class="btn">RESET PASSWORD</button>
+      </form>
+    </div>
+    <div class="confirmedBox">
+      <div class="card">
+        <div class="card-body">
+          <h1 class="card-title mb-4">Password Changed</h1>
+          <p class="card-text mb-4">
+            Your password has been updated! Now get back in the driver seat,
+            racers are waiting for you!
+          </p>
+          <a href="#" class="btn btn-primary text-uppercase">Join A Race</a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <a href="#">About Us</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Tutorials</a>
+      <a href="#">Terms of Service</a>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

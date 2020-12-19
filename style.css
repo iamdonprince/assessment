@@ -1,0 +1,90 @@
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: #33a0d9;
+  height: 70px;
+}
+.navbar-nav {
+  margin-right: 8rem;
+}
+.form {
+  width: 423px;
+  margin: 4em auto;
+}
+.form form label {
+  width: 425px;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.23em;
+  color: #000000;
+}
+
+.form > h1 {
+  font-weight: bold;
+
+  font-size: 48px;
+  margin-bottom: 0.5em;
+}
+
+.form-group {
+  margin-bottom: 45px;
+}
+form input[type="password"] {
+  font-size: 1.4em;
+  color: #000000;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.message {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  display: none;
+  margin-top: 1rem;
+  color: #eb5757;
+}
+form .btn {
+  width: 100%;
+  font-weight: bold;
+  color: white;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.23em;
+  background-color: #000000;
+}
+.confirmedBox {
+  width: 453px;
+  margin: 8em auto;
+  display: none;
+}
+
+.card {
+  border: none;
+}
+
+.confirmedBox .card .btn {
+  font-size: 24px;
+  line-height: 36px;
+  border: none;
+  width: 100%;
+  background-color: #000000;
+}
+
+footer {
+  width: 100%;
+  padding: 1em 4rem;
+  background-color: #33a0d9;
+  position: absolute;
+  text-align: center;
+
+  bottom: 0;
+}
+footer a {
+  color: #fffefe;
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 1rem;
+}
